@@ -57,16 +57,16 @@ class SHToggleButton: UIButton {
     }
     
     private func bounceAnimation() {
-        AnimationBuilder(for: self)
-            .scaleX(1.5)
-            .scaleY(1.5)
-            .execute(type: .permanent, completion: {
-                AnimationBuilder(for: self)
-                    .duration(0.8)
-                    .damping(0.4)
-                    .options(.allowUserInteraction)
-                    .execute(type: .permanent)
+        DispatchQueue.main.async {
+            UIView.animate(withDuration: 0, animations: {
+                self.transform = CGAffineTransform.identity.scaledBy(x: 1.5, y: 1.5)
+            
+            }, completion: { _ in
+                UIView.animate(withDuration: 0.8, delay: 0, usingSpringWithDamping: 0.4, initialSpringVelocity: 0, options: .allowUserInteraction, animations: {
+                    self.transform = CGAffineTransform.identity.scaledBy(x: 1, y: 1)
+                })
             })
+        }
     }
     
     private func fallingAnimation() {

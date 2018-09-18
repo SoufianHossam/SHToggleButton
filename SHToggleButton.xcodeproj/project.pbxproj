@@ -13,7 +13,6 @@
 		3161DCE12151313300F9C010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3161DCE02151313300F9C010 /* Assets.xcassets */; };
 		3161DCE42151313300F9C010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3161DCE22151313300F9C010 /* LaunchScreen.storyboard */; };
 		3161DCEC2151314E00F9C010 /* SHToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161DCEB2151314E00F9C010 /* SHToggleButton.swift */; };
-		3161DCEE2151316800F9C010 /* AnimationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161DCED2151316800F9C010 /* AnimationBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		3161DCE32151313300F9C010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3161DCE52151313300F9C010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3161DCEB2151314E00F9C010 /* SHToggleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SHToggleButton.swift; sourceTree = "<group>"; };
-		3161DCED2151316800F9C010 /* AnimationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +59,6 @@
 				3161DCD92151313300F9C010 /* AppDelegate.swift */,
 				3161DCDB2151313300F9C010 /* ViewController.swift */,
 				3161DCEB2151314E00F9C010 /* SHToggleButton.swift */,
-				3161DCED2151316800F9C010 /* AnimationBuilder.swift */,
 				3161DCDD2151313300F9C010 /* Main.storyboard */,
 				3161DCE02151313300F9C010 /* Assets.xcassets */,
 				3161DCE22151313300F9C010 /* LaunchScreen.storyboard */,
@@ -142,7 +139,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3161DCEE2151316800F9C010 /* AnimationBuilder.swift in Sources */,
 				3161DCEC2151314E00F9C010 /* SHToggleButton.swift in Sources */,
 				3161DCDC2151313300F9C010 /* ViewController.swift in Sources */,
 				3161DCDA2151313300F9C010 /* AppDelegate.swift in Sources */,
