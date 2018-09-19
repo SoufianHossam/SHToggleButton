@@ -77,7 +77,7 @@ class SHToggleButton: UIButton {
             let duration = 0.5 + drand48() * 0.5
             
             let imageView = UIImageView(image: fallingImage)
-            imageView.frame = CGRect(x: x, y: y, width: frame.width * 0.8, height: frame.height * 0.8)
+            imageView.frame = CGRect(x: x, y: y, width: frame.width * 0.7, height: frame.height * 0.7)
             
             addSubview(imageView)
             
