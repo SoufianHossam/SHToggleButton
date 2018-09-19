@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3142D3A421525D60007670D7 /* ButtonClicked.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3142D3A321525D5F007670D7 /* ButtonClicked.gif */; };
+		3142D3A6215261F6007670D7 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3142D3A5215261F6007670D7 /* Settings.png */; };
 		3161DCDA2151313300F9C010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161DCD92151313300F9C010 /* AppDelegate.swift */; };
 		3161DCDC2151313300F9C010 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3161DCDB2151313300F9C010 /* ViewController.swift */; };
 		3161DCDF2151313300F9C010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3161DCDD2151313300F9C010 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3142D3A321525D5F007670D7 /* ButtonClicked.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ButtonClicked.gif; sourceTree = "<group>"; };
+		3142D3A5215261F6007670D7 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
 		3161DCD62151313300F9C010 /* SHToggleButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHToggleButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3161DCD92151313300F9C010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3161DCDB2151313300F9C010 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				3142D3A321525D5F007670D7 /* ButtonClicked.gif */,
+				3142D3A5215261F6007670D7 /* Settings.png */,
 				3161DCD92151313300F9C010 /* AppDelegate.swift */,
 				3161DCDB2151313300F9C010 /* ViewController.swift */,
 				3161DCEB2151314E00F9C010 /* SHToggleButton.swift */,
@@ -129,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3142D3A6215261F6007670D7 /* Settings.png in Resources */,
 				3142D3A421525D60007670D7 /* ButtonClicked.gif in Resources */,
 				3161DCE42151313300F9C010 /* LaunchScreen.storyboard in Resources */,
 				3161DCE12151313300F9C010 /* Assets.xcassets in Resources */,
