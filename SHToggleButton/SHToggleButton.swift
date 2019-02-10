@@ -84,9 +84,9 @@ class SHToggleButton: UIButton {
             let animation = CAKeyframeAnimation(keyPath: "position")
             animation.path = createFallingPath(center: CGPoint(x: x, y: y))
             animation.duration = duration
-            animation.fillMode = kCAFillModeForwards
+            animation.fillMode = CAMediaTimingFillMode.forwards
             animation.isRemovedOnCompletion = false
-            animation.timingFunctions = [CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)]
+            animation.timingFunctions = [CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)]
             
             imageView.layer.add(animation, forKey: nil)
             
